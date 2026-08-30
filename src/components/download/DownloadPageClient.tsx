@@ -17,7 +17,8 @@ const DownloadPageClient = () => {
       icon: "/window.svg",
       version: "Latest",
       releaseDate: "Latest Release",
-      downloadLink: "https://github.com/satyamkumar420/kira-solver-app/releases",
+      downloadLink:
+        "https://github.com/satyamkumar420/kira-solver-app/releases",
       status: "available" as const,
     },
   ];
@@ -26,10 +27,6 @@ const DownloadPageClient = () => {
     Windows: {
       min: "Windows 10 (64-bit), 4GB RAM, 500MB disk space",
       rec: "Windows 11 (64-bit), 8GB RAM, 1GB SSD disk space",
-    },
-    macOS: {
-      min: "macOS 11 (Big Sur), 4GB RAM, 500MB disk space",
-      rec: "macOS 13 (Ventura), 8GB RAM, 1GB SSD disk space",
     },
   };
 
